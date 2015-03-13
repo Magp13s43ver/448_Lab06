@@ -1,0 +1,25 @@
+total 24
+drwxr-xr-x  4 yteh undergraduate   33 Mar  2 10:20 Android_Workspace
+drwxr-xr-x  3 yteh undergraduate  133 Mar 11 11:13 Desktop
+drwxr-xr-x  3 yteh undergraduate   19 Jan 30 15:35 Documents
+drwxr-xr-x  2 yteh undergraduate  112 Mar 13 15:27 Downloads
+drwxr-xr-x 13 yteh undergraduate  140 Nov 26  2013 EECS 140
+drwxr-xr-x  6 yteh undergraduate 4096 Oct 10 12:43 EECS 211
+drwxr-xr-x 20 yteh undergraduate 4096 Nov 14 10:59 EECS 212
+drwxr-xr-x 13 yteh undergraduate 4096 May  8  2014 EECS 268
+drwxr-xr-x  8 yteh undergraduate  130 Mar 12 16:18 EECS 360
+drwxr-xr-x  2 yteh undergraduate   80 Oct  2 14:01 EECS 368
+drwxr-xr-x  6 yteh undergraduate   83 Dec  8 13:52 EECS_388
+drwxr-xr-x  3 yteh undergraduate   35 Jan 26 15:27 EECS_443
+drwxr-xr-x 10 yteh undergraduate  116 Mar 13 15:44 EECS 448
+drwx------  2 yteh undergraduate    6 Aug 13  2013 Maildir
+-rw-r--r--  1 yteh undergraduate 9951 Feb  6 16:31 matlab_crash_dump.3619-1
+drwxr-xr-x  2 yteh undergraduate    6 Aug 30  2013 Music
+drwxr-xr-x  2 yteh undergraduate   52 Feb  6 15:35 Pictures
+drwxr-xr-x  4 yteh undergraduate   36 Apr 21  2014 providedCode
+drwxr-xr-x  2 yteh undergraduate    6 Aug 30  2013 Public
+drwxr-xr-x  3 yteh webgroup        37 Mar  2 10:00 public_html
+drwxr-xr-x  2 yteh webgroup         6 Aug 13  2013 Repository
+drwxr-xr-x  2 yteh undergraduate    6 Aug 30  2013 Templates
+drwxr-xr-x  5 yteh undergraduate   61 Sep  8  2014 TI_Workspace
+drwxr-xr-x  2 yteh undergraduate    6 Aug 30  2013 Videos
