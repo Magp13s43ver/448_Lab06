@@ -31,3 +31,18 @@ for line in file2:
 	
 	matrix2.append(temp)
 print(matrix2)
+
+
+#function assumes the matricies are matricies
+#the funciton will try to multiply them in the order they are passed in
+#otherwise it will decare them to have invalid dimensions
+def multiply(a, b):
+        if (len (a[0]) == len (b)):
+                tempMtx = [[0 for i in range(len(b[0]))]for j in range(len(a))]
+                for i in range(len(a)):
+                        for j in range (len (b[0])):
+                                for k in range (len(a[0])):
+                                        tempMtx[i][j] = tempMtx[i][j] + (a[i][k]*b[k][j])
+                return tempMtx
+        else:
+                print("Not multiplyable, invalid dimensions")
