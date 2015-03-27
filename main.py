@@ -9,16 +9,14 @@ import sys
 #Read file
 file1 = file('A.csv', 'r')
 file2 = file('B.csv', 'r')
-file3 = file('C.csv', 'r')
 #Store files in an array
-filemat = [file1,file2,file3];
+filemat = [file1,file2];
 
 #Create three arrays to store the matrices
 matrix1 = []
 matrix2 = []
-matrix3 = []
 #Store matrices in an array
-matrix = [matrix1, matrix2, matrix3];
+matrix = [matrix1, matrix2];
 
 #Splitting the values in the file and store them in matrices
 for i in range(0,len(filemat)):
@@ -102,6 +100,7 @@ def transposeMtx(a):
         return tempMtx
 
 
-print(multiply(matrix2, matrix1))
-print(addMtx(matrix1, matrix2))
+print("Transpose of Matrix 1 =")
+#print(multiply(matrix1, matrix2))
+#print(addMtx(matrix1, matrix2))
 print(transposeMtx(matrix1))
