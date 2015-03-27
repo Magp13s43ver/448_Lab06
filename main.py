@@ -42,7 +42,6 @@ for i in range(0,len(matrix)):
 
 	check = len(matrix[i][0])
 	
-<<<<<<< HEAD
 	for j in range(1, len(matrix[i])):
     		check1 = len(matrix[i][j])
 		
@@ -60,12 +59,8 @@ for i in range(0,len(matrix)):
 		s = "Matrix " + repr(i+1) + " is valid.";
     		print(s)
     		
-=======
-	matrix2.append(temp)
-print(matrix2)
 
 
->>>>>>> 29bf41ff563b11f49d96c4ab8af725ba5c0647b5
 #function assumes the matricies are matricies
 #the funciton will try to multiply them in the order they are passed in
 #otherwise it will decare them to have invalid dimensions
@@ -79,7 +74,3 @@ def multiply(a, b):
                 return tempMtx
         else:
                 print("Not multiplyable, invalid dimensions")
-<<<<<<< HEAD
-
-=======
->>>>>>> 29bf41ff563b11f49d96c4ab8af725ba5c0647b5
