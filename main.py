@@ -74,3 +74,26 @@ def multiply(a, b):
                 return tempMtx
         else:
                 print("Not multiplyable, invalid dimensions")
+#function assumes the matricies are matricies
+#the funciton will try to add them in the order they are passed in
+#otherwise it will decare them to have invalid dimensions
+                
+def addMtx(a, b):
+        if ((len(a) == len(b))and(len(a[0]) == len(b[0]))):
+                tempMtx = [[0 for i in range(len(a[0]))]for j in range(len(a))]
+                for i in range(len(a)):
+                        for j in range (len (a[0])):
+                                tempMtx[i][j] = a[i][j]+b[i][j]    
+                return tempMtx
+        else:
+                print("Not addable, invalid dimensions")
+                
+#function assumes the matrix is a matrix
+#the funciton will output a matrix that represents the input matrix transposed
+                
+def transposeMtx(a):
+        tempMtx = [[0 for i in range(len(a))]for j in range(len(a[0]))]
+        for i in range(len(a)):
+                for j in range (len (a[0])):
+                        tempMtx[j][i] = a[i][j]
+        return tempMtx
