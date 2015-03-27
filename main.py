@@ -87,7 +87,9 @@ def addMtx(a, b):
                                 tempMtx[i][j] = a[i][j]+b[i][j]    
                 return tempMtx
         else:
+
                 return("Not addable, invalid dimensions")
+
                 
 #function assumes the matrix is a matrix
 #the funciton will output a matrix that represents the input matrix transposed
@@ -98,6 +100,7 @@ def transposeMtx(a):
                 for j in range (len (a[0])):
                         tempMtx[j][i] = a[i][j]
         return tempMtx
+
 
 print(multiply(matrix2, matrix1))
 print(addMtx(matrix1, matrix2))
